@@ -1,0 +1,22 @@
+{
+    "manifest_version":3,
+    "name": "Page Pilot",
+    "version":"1.0.0",
+    "description":"Instantly chat with any webpage. Ask questions and get summaries from the content of your current tab using AI.",
+    "icons": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "action": {
+        "default_popup":"index.html"
+    },
+    "permissions":[
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
