@@ -1,0 +1,12 @@
+fastapi
+pydantic
+python-dotenv
+crawl4ai
+langchain-text-splitters
+langchain-core
+langchain
+langchain-pinecone
+langchain-google-genai
+nomic
+pinecone-client
+uvicorn
