@@ -2,6 +2,14 @@
 
 Page Pilot is a powerful Chrome extension that allows you to instantly chat with any webpage. Ask questions, get summaries, and find information in the content of your current tab using a sophisticated AI-powered RAG (Retrieval-Augmented Generation) pipeline.
 
+## Screenshots
+
+<p align="center">
+  <img src="./images/extension.png" width="400">
+  <img src="./images/opened.png" width="400">
+  <img src="./images/working.png" width="400">
+</p>
+
 ## Features
 
 -   **Webpage Analysis:** Analyze the content of any webpage with a single click.
