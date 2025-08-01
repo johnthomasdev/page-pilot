@@ -46,6 +46,13 @@ class RAGPipeline:
                 spec=ServerlessSpec(cloud="aws", region="us-east-1")
             )
         self.index = pc.Index(index_name) #Low level connection library
+
+        try:
+            self.index.delete(delete_all=True) #Delete all indexes at the start
+            print("Clearing all previous data on start")
+        except Exception as e:
+            print(f'Error {e} occurred')
+
         self.vectorstore = LangchainPinecone.from_existing_index(
             index_name=self.index_name,
             embedding=self.embeddings
